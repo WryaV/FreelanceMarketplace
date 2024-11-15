@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Consultinno</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+        .message-container {
+            padding: 20px; 
+        }
+        .message-area {
+            height: 100px;
+            margin-top: 10px; 
+        }
+        .center-wrapper {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 100vh; 
+        }
+
+.custom-container {
+  display: flex;
+  gap: 20px; 
+  border-color: #001f3f;
+
+}
+
+        
+    </style>
+</head>
+<body>
+  <nav style="background-color: #001f3f;" class="navbar navbar-expand-md custom-navbar" aria-label="Fourth navbar example">
+    <div class="container-fluid">
+        <button style="color: #ffffff !important;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link active" style="color: #ffffff !important;" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" style="color: #ffffff !important;" aria-current="page" href="#">Browse Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" style="color: #ffffff !important;" aria-current="page" href="#">Talents</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" style="color: #ffffff !important;" aria-current="page" href="#">Blog</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" style="color: #ffffff !important;" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./About_us.html#mission">Our Mission and Value</a></li>
+                        <li><a class="dropdown-item" href="./About_us.html#contact">Contact</a></li>
+                        <li><a class="dropdown-item" href="./About_us.html#faq">FAQs</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form role="search">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </form>
+        </div>
+    </div>
+  </nav>
+
+    <div class="bg-dark text-secondary px-4 py-5 text-center" style="background-image: url('./fantasy5.jpg');background-size: cover;background-position: center;background-repeat: no-repeat;  background-color: #2c3e50;"!important>
+        <div class="py-5">
+          <h1 style="font-family: 'JetBrains Mono', monospace;" class="display-5 fw-bold text-white">Let's Get the Job Done</h1>
+          <div class="col-lg-6 mx-auto">
+            <div class="mb-4">
+                <input type="text" class="form-control mx-auto" placeholder="What do you need help with?" style="width: 70%;">
+            </div>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button type="button" style="font-family: 'JetBrains Mono', monospace; color: white; border-color: white;" class="btn btn-outline-info btn-lg">Marketing</button>
+                <button type="button" onclick="window.open('https://github.com/WryaV', '_blank');" style="font-family: 'JetBrains Mono', monospace; color: white; border-color: white;" class="btn btn-outline-info btn-lg"> Programming</button>
+                <button type="button" style="font-family: 'JetBrains Mono', monospace; color: white; border-color: white;" class="btn btn-outline-info btn-lg">Research</button>
+                <button type="button" style="font-family: 'JetBrains Mono', monospace; color: white; border-color: white;" class="btn btn-outline-info btn-lg">Data Analyst</button>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3" style="justify-content: center; align-items: center;">
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"></use></svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+            <p>Explore projects waiting for your expertise.</p>
+            <a href="#" class="btn btn-primary">
+             I am a Freelancer
+            </a>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+            <p>Discover talented freelancers ready to bring your projects to life.</p>
+            <a href="#" class="btn btn-primary">
+              I Have a Project
+            </a>
+          </div>
+        </div>
+      </div>
+        <div style="width: 100%; clear: both; text-align: center; margin-top: 20px;">
+          <h1 style="color: #001f3f; margin: 0;">Freelance Services Tailored for You</h1>
+         </div>
+
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5" style="align-items: center;  margin: 10px;">
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" 
+               style="background-image: url('business-report-graphs-charts-business-reports-pile-documents-business-concept.jpg'); background-size: cover; background-position: center;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color: #505050;"><a href="#" style="text-decoration: none;font-size: smaller">Data Analysis</a></h3>
+              </div>
+          </div>
+        </div>
+      
+  
+        <div class="col">
+         <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" 
+             style="background-image: url('./video-editor-using-editing-software-green-screen-monitor-upgrade-footage-shot.jpg'); background-size: cover; background-position: center;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color: #2c3e50;"><a href="#" style="text-decoration: none;font-size: smaller">Video Editing </a></h3>
+            </div>
+         </div>
+        </div>
+  
+        <div class="col">
+         <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" 
+           style="background-image: url('./e-book-layout-design-draft-graphic.jpg'); background-size: cover; background-position: center;">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color: #2c3e50; size: 2rem;"><a href="#" style="text-decoration: none;font-size: smaller"> Content Developing</a></h3>
+          </div>
+         </div>
+       </div>
+     </div>
+     
+     <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5" style="align-items: center;  margin: 10px;">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" 
+             style="background-image: url('./digital\ marketing.jpg'); background-size: cover; background-position: center;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color: #2c3e50;"><a href="#" style="text-decoration: none;font-size: smaller">Digital Marketing</a></h3>
+            </div>
+        </div>
+      </div>
+    
+
+      <div class="col">
+       <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" 
+           style="background-image: url('./web_development.jpg'); background-size: cover; background-position: center;">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color: #2c3e50;"><a href="#" style="text-decoration: none;font-size: smaller">Web Development </a></h3>
+          </div>
+       </div>
+      </div>
+
+      <div class="col">
+       <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" 
+         style="background-image: url('./design.jpg'); background-size: cover; background-position: center;">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color: #2c3e50; size: 2rem;"><a href="#" style="text-decoration: none;font-size: smaller"> Graphic Design</a></h3>
+        </div>
+       </div>
+     </div>
+   </div>
+
+   <div style="display: flex; width: 50%; height: 50%; max-width: 200px; border: 2px solid #4a90e2; border-radius: 50%; margin: auto; align-items: center; justify-content: center; background-color: #ffffff; font-family: 'Segoe UI', sans-serif;">
+    <h3 style="margin: 0;">
+        <a style="text-decoration: none; color: #4a90e2; font-weight: 600;" href="#">See All</a>
+    </h3>
+</div>
+
+
+
+   <footer class="bd-footer py-4 py-md-5 mt-5 bg-body-tertiary">
+    <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
+      <div class="row">
+        <div class="col-lg-3 mb-3">
+          <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="/" aria-label="Consultinno">
+            <img src="freelancer-icon.svg" alt="Freelancer Icon" width="40" height="32" class="d-block me-2">
+            <span class="fs-5">Consultinno</span>
+          </a>
+          <ul class="list-unstyled small">
+            <li class="mb-2"><a href="#">Consultinno</a>: Solutions for Freelancers, Success for Project Owners.</li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+          <h5>Links</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="/">Home</a></li>
+            <li class="mb-2"><a href="#">Projects</a></li>
+            <li class="mb-2"><a href="#">Talents</a></li>
+            <li class="mb-2"><a href="#">Blog</a></li>
+            <li class="mb-2"><a href="#">Contact</a></li>
+            <li class="mb-2"><a href="#">Our Mission</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>Guides</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#">Getting started</a></li>
+            <li class="mb-2"><a href="#">How to Publish a Project</a></li>
+            <li class="mb-2"><a href="#">How to Bid for a Project</a></li>
+            <li class="mb-2"><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>Trending Projects</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" target="_blank" rel="noopener">Web Development</a></li>
+            <li class="mb-2"><a href="#" target="_blank" rel="noopener">Data Analysis</a></li>
+            <li class="mb-2"><a href="#" target="_blank" rel="noopener">COntent Developing</a></li>
+            <li class="mb-2"><a href="#" target="_blank" rel="noopener">Digital Marketing</a></li>
+            <li class="mb-2"><a href="#" target="_blank" rel="noopener">Teaching</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2 mb-3">
+          <h5>Community</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" target="_blank" rel="noopener">Discussions</a></li>
+            <li class="mb-2"><a href="#" target="_blank" rel="noopener">Apply for a Job</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>       
+</body>
+</html>

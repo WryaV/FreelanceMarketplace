@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Background Image</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            
+        }
+
+        .background-container {
+            height: 100vh;
+            width: 100%;
+            background-image: url('./12456.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: flex-end; /* Align children to the bottom */
+            justify-content: center; /* Center horizontally */
+            padding-bottom: 20px;
+            color: white;
+            text-align: center;
+            box-sizing: border-box;
+            
+        }
+
+        
+    </style>
+</head>
+<body>
+    <nav style="background-color: #001f3f;" class="navbar navbar-expand-md custom-navbar" aria-label="Fourth navbar example">
+        <div class="container-fluid">
+            <button style="color: #ffffff !important;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: #ffffff !important;" aria-current="page" href="index.html#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: #ffffff !important;" aria-current="page" href="#">Browse Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: #ffffff !important;" aria-current="page" href="#">Talents</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: #ffffff !important;" aria-current="page" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" style="color: #ffffff !important;" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#mission">Our Mission and Value</a></li>
+                            <li><a class="dropdown-item" href="#contact">Contact</a></li>
+                            <li><a class="dropdown-item" href="#faq">FAQs</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form role="search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+        </div>
+      </nav>
+    <div class="background-container">
+        <h2 style="font-family: 'JetBrains Mono', monospace; font-weight: 700;">We Connect Tasks to The Right People</h1>
+        <p></p>
+    </div>
+    <section style="margin-top: 100px; margin-left: 20px;">
+        <div style=" padding: 5%; justify-content: center; ">
+            <h2 id="mission"> Mission and Value</h2> 
+        <p style="font-family: inherit; line-height: 1.6;">
+            Our mission is to empower professionals and businesses by creating a seamless, reliable platform where talent meets opportunity. We strive to facilitate meaningful collaborations, ensure transparency, and drive growth by leveraging cutting-edge technology and innovative solutions. We are committed to nurturing a global community where freelancers and clients alike can achieve their highest potential.
+        </p>
+        <ul style="font-family: inherit; line-height: 1.6; list-style-type: disc; margin-left: 20px;">
+            <li><strong>Integrity</strong>: We prioritize honesty and transparency in all our interactions, ensuring that trust is the foundation of our marketplace.</li>
+            <li><strong>Excellence</strong>: We are dedicated to fostering high-quality work by maintaining robust standards and providing support to both freelancers and clients.</li>
+            <li><strong>Innovation</strong>: We continuously seek new ways to enhance our platform, creating a forward-thinking environment that adapts to the changing needs of our users.</li>
+            <li><strong>Diversity and Inclusion</strong>: We value and celebrate the diversity of our community, ensuring an inclusive space where ideas and talents from all backgrounds are welcomed and supported.</li>
+            <li><strong>Empowerment</strong>: We aim to empower freelancers by providing them with the tools, resources, and opportunities needed to succeed and grow professionally.</li>
+            <li><strong>Collaboration</strong>: We believe in building strong, mutually beneficial relationships between freelancers and clients that foster trust, respect, and mutual success.</li>
+            <li><strong>Customer-Centricity</strong>: Our platform is designed with the needs of our users in mind, ensuring a smooth, user-friendly experience for all.</li>
+        </ul>
+        </div>
+        
+    </section >
+    <section >
+        <div div style=" padding: 5%; justify-content: center; ">
+            <h2 id="contact">
+                Contact
+            </h2>
+            <div>
+                <a href="#" onclick="openEmail()">Our Email</a>
+            </div>
+        </div>
+        
+        
+    </section>
+    <section >
+        <div div style=" padding: 5%; justify-content: center; ">
+        <h2 id="faq">
+            FAQs
+        </h2>
+        <div id="text-container" style="font-family: Arial, sans-serif;">
+            <div id="more-text" style="display: none;">
+                
+                <h3 style="font-family: inherit; font-weight: bold;">For Freelancers:</h3>
+                <ol style="font-family: inherit; line-height: 1.6;">
+                    <li><strong>Sign Up</strong>: Create an account on Consultinno by signing up with your email or social media account. Ensure your profile is complete, with details about your skills, experience, and portfolio to attract clients.</li>
+                    <li><strong>Browse Projects</strong>: Use the search and filter options to find projects that match your expertise. Our platform showcases a wide range of project categories to help you find suitable work.</li>
+                    <li><strong>Submit Proposals</strong>: When you find a project that interests you, submit a well-crafted proposal detailing your approach, timeline, and cost. Highlight how your skills match the project requirements to stand out to clients.</li>
+                    <li><strong>Communicate with Clients</strong>: Use our integrated messaging system to discuss project details, ask questions, and set expectations with potential clients.</li>
+                    <li><strong>Start Working</strong>: Once your proposal is accepted, begin work according to the agreed terms. Use Consultinno’s tools to manage project milestones, submit deliverables, and ensure smooth project progress.</li>
+                    <li><strong>Get Paid</strong>: Secure payments through our platform’s escrow system. Payments are released to you once the client approves your work, ensuring trust and fairness for both parties.</li>
+                </ol>
+        
+                <h3 style="font-family: inherit; font-weight: bold;">For Project Owners:</h3>
+                <ol style="font-family: inherit; line-height: 1.6;">
+                    <li><strong>Create an Account</strong>: Sign up as a project owner using your email or social media account to start posting your project needs.</li>
+                    <li><strong>Post a Project</strong>: Provide detailed information about your project, including the scope, budget, and required skills. This will help attract the most qualified freelancers.</li>
+                    <li><strong>Review Proposals</strong>: Once your project is posted, freelancers will start sending proposals. Review their profiles, previous work, and feedback from other clients to make an informed decision.</li>
+                    <li><strong>Select a Freelancer</strong>: Choose a freelancer based on their proposal, experience, and ratings. You can also interview them through Consultinno’s messaging system to ensure they’re the right fit.</li>
+                    <li><strong>Manage the Project</strong>: Use Consultinno’s project management tools to track progress, set milestones, and maintain communication with the freelancer.</li>
+                    <li><strong>Approve Work and Release Payment</strong>: Review the completed work, and if you’re satisfied, approve the work and release payment through the secure escrow system. This ensures both parties are protected and compensated fairly.</li>
+                </ol>
+        
+                <h3 style="font-family: inherit; font-weight: bold;">How Consultinno Benefits You:</h3>
+                <ul style="font-family: inherit; line-height: 1.6; list-style-type: disc; margin-left: 20px;">
+                    <li><strong>Freelancers</strong>: Gain access to a diverse range of projects, a secure payment system, and a professional network to build their reputation.</li>
+                    <li><strong>Project Owners</strong>: Easily find and hire talented freelancers, manage projects efficiently, and ensure their investments are safeguarded through Consultinno’s secure processes.</li>
+                </ul>
+            </div>
+            <button id="reveal-btn" style="background-color: #007BFF; color: white; border: none; padding: 10px 20px; cursor: pointer;">
+                How to start?
+            </button>
+        </div>
+    </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>       
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const button = document.getElementById('reveal-btn');
+            const moreText = document.getElementById('more-text');
+    
+            
+            button.addEventListener('click', function() {
+                if (moreText.style.display === 'none') {
+                    moreText.style.display = 'block'; 
+                    button.textContent = 'Hide Details';
+                } else {
+                    moreText.style.display = 'none'; 
+                    button.textContent = 'How to start?';
+                }
+            });
+        });
+    function openEmail() {
+    const email = "vrichvri@gmail.com";
+    const subject = "Inquiry from Website";
+    const body = "Hello, I would like to know more about...";
+    window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  }   
+    </script>
+</body>
+</html>
